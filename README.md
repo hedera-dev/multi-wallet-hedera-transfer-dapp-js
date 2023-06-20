@@ -46,5 +46,5 @@ Follow the guide [how to connect to Hedera Networks over RPC](https://docs.heder
 
 ## Resources
 * [The Hedera DApp CRA Template](https://github.com/hedera-dev/cra-hedera-dapp-template)
-* Need to quickly create Hedera Testnet accounts to act as Sender/Reciever? Check out [Create Hedera Accounts with Tokens Helper](https://github.com/hedera-dev/hedera-create-account-and-token-helper)
+* Need to quickly create Hedera Testnet accounts to act as Sender/Receiver? Check out [Create Hedera Accounts with Tokens Helper](https://github.com/hedera-dev/hedera-create-account-and-token-helper)
 * [Hashscan](https://hashscan.io/testnet/dashboard) network explorer
