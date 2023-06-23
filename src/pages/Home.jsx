@@ -20,7 +20,6 @@ export default function Home() {
       </Typography>
       {walletInterface !== null && (
         <>
-          {/* Example: Transferring HBAR */}
           <Stack
             direction='row'
             gap={2}
