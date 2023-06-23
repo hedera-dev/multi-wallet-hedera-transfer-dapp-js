@@ -11,7 +11,7 @@ This gives you the initial state from which you can follow along
 with the steps as described in the tutorial.
 
 ```shell
-git clone git+ssh://git@github.com/hedera-dev/cra-hedera-dapp-template.git
+git clone git+ssh://git@github.com/hedera-dev/multi-wallet-hedera-transfer-dapp-js.git
 ```
 
 To skip ahead to the final state, use the `completed` branch.
