@@ -83,7 +83,7 @@ export class MirrorNodeClient {
       }
     }
 
-    //5. Combine token balances, token info, and NFT info
+    //5. Combine token balances, token info, and NFT info and return
     return tokens.map(token => {
       return {
         ...token,
