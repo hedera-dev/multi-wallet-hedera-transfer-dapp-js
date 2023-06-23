@@ -13,14 +13,12 @@ export default function Home() {
   const { walletInterface, accountId } = useWalletInterface();
   const [toAccountId, setToAccountId] = useState("");
   const [amount, setAmount] = useState(0);
-  // include all of this necessary for dropdown
   const [availableTokens, setAvailableTokens] = useState([]);
   const [selectedTokenId, setSelectedTokenId] = useState('');
   const [serialNumber, setSerialNumber] = useState(UNSELECTED_SERIAL_NUMBER);
 
   const [tokenIdToAssociate, setTokenIdToAssociate] = useState("");
 
-  // include all of this necessary for dropdown
   // Purpose: Get the account token balances with token info for the current account and set them to state
   useEffect(() => {
     if (accountId === null) {
@@ -37,14 +35,11 @@ export default function Home() {
     });
   }, [accountId])
 
-  // include all of this necessary for dropdown
   // Filter out tokens with a balance of 0
   const tokensWithNonZeroBalance = availableTokens.filter((token) => token.balance > 0);
-  // include all of this necessary for dropdown
   // Get the selected token balance with info
   const selectedTokenBalanceWithInfo = availableTokens.find((token) => token.token_id === selectedTokenId);
 
-  // include all of this necessary for dropdown
   // reset amount and serial number when token id changes
   useEffect(() => {
     setAmount(0);
