@@ -3,7 +3,7 @@ Transfer Hedera tokens with ease using this DApp built on the Create React App H
 
 ## Tutorial
 This repo is intended to be used alongside the tutorial:
-[How to use my example project](https://docs.hedera.com/tutorials/my-example-project)
+[Develop a Hedera DApp with MetaMask, HashPack, and Blade Integration]( https://hedera.com/blog/develop-a-hedera-dapp-with-metamask-hashpack-and-blade-integration)
 
 To follow along, start with the `main` branch,
 which is the default branch of this repo.
